@@ -31,7 +31,7 @@ const Navigation = () => {
       
       lastScrollY.current = currentScrollY
       
-      const sections = ['hero', 'about', 'skills', 'projects', 'contact']
+      const sections = ['hero', 'about', 'skills', 'diplomas', 'projects', 'contact']
       const scrollPosition = currentScrollY + 200
 
       for (const section of sections) {
@@ -54,6 +54,7 @@ const Navigation = () => {
     { id: 'hero', label: 'Home' },
     { id: 'about', label: 'About' },
     { id: 'skills', label: 'Skills' },
+    { id: 'diplomas', label: 'Diplomas' },
     { id: 'projects', label: 'Projects' },
     { id: 'contact', label: 'Contact' },
   ]
